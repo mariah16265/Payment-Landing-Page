@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="project2.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section class="header">
+        <img id="slow" src="C:\Users\Maria\Desktop\log.jpg" alt="logo">
+        <h1>Features</h1>
+        <h1>Pricing</h1>
+        <h1>Help</h1>
+        <h1>Blog</h1>
+        <h1>About us</h1>
+        <div class="btns">
+            <button id="log">Log In</button>
+            <button id="sign">Sign Up</button>
+        </div>
+    </section>
+    <section class="new">
+        <div class="content">
+            <p id="w2">START SAVING MONEY</p>
+            <p id="w1"><b>Smart Credit Card <br> For Your Daily Life.</b></p>
+            <button>Download<img id="download" src="https://icons.veryicon.com/png/o/miscellaneous/icon-pack/download-347.png"></button>
+        </div>  
+        <div class="phone">
+            <img id="crazy" src="C:\Users\Maria\Desktop\oa.jpg" alt="iphone">
+        <div class="overlay">           
+    <img id="menu" onclick="navMenu()" src="C:\Users\Maria\Desktop\menu.png" alt="menu">
+</div> 
+        <div class="overlay1">
+    <img id="nmenu" src="C:\Users\Maria\Desktop\scd.jpg"></div>
+        </div>
+    </section>
+    <script>
+  function navMenu() {
+    const crazyImage = document.getElementById("crazy");
+    const nmenuImage = document.getElementById("nmenu");
+    const menuImage = document.getElementById("menu");
+
+    // Toggle visibility of "crazy" and "nmenu" images
+    if (crazyImage.classList.contains("hidden")) {
+        crazyImage.classList.remove("hidden");
+        nmenuImage.classList.add("hidden");
+    } else {
+        crazyImage.classList.add("hidden");
+        nmenuImage.classList.remove("hidden");
+    }
+}
+
+// Add event listener to the "menu" image
+const menuImage = document.getElementById("menu");
+menuImage.addEventListener("click", navMenu);
+    </script>
+</body>
+</html>

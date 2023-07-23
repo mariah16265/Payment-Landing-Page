@@ -1,0 +1,135 @@
+/* Rest of your CSS styles */
+
+body :hover{
+    background-color: #1c1c1c;
+    color: white;
+    cursor: pointer;
+}
+body {
+    background-color:#1c1c1c;
+    color: white;
+    border-radius: 30px;
+    border-color: white;
+}
+button :hover{
+    background-color: burlywood;
+    cursor: pointer;
+}
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    width: 1400px;
+    margin-left: 120px;
+    margin-top: 155px;
+    color: white;
+    font-size: 23px;
+}
+
+.header #slow {
+    border-radius: 80%;
+    margin-right: 130px;
+    height: 60px;
+}
+
+.btns {
+    display: flex;
+    /* height: 20px; */
+    margin-top: 20px;
+    /* padding: 6px; */
+}
+
+.btns #log,
+.btns #sign {
+    width: 130px;
+    height: 40px;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    align-items: flex-start;
+    margin-right: 20px;
+    font-size: 23px;
+}
+
+.new {
+    display: flex;
+    margin-top: 230px;
+    margin-left: 120px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+#w2 {
+    color: #8c8c8c;
+    font-size: 30px;
+    letter-spacing: 4px;
+    margin-left: 70px;
+
+}
+
+#w1 {
+    font-size: 70px;
+    align-items: start;
+    margin-left: 70px;
+}
+
+#download {
+    width: 25px;
+}
+
+.content button {
+    border-radius: 5px;
+    height: 60px;
+    width:170px;
+    margin-left: 71px;
+    font-size: 20px;
+
+}
+
+button #download {
+    margin-left: 12px;
+    background-color: #e3d8ee;
+}
+.phone{
+    display: flex;
+    flex-direction: row;
+}
+
+.phone #crazy {
+   
+    margin-left: 170px;
+ 
+}
+#nmenu{
+    height: 700px;
+    margin-left: 210px;
+}
+.phone #menu {
+    margin-top: 25px;
+    width:25px;
+  
+    margin-left: 210px;
+
+}
+.overlay{
+    position: absolute;
+    opacity: 0;
+    
+}
+.phone:hover .overlay{
+    opacity: 1;
+}
+.overlay1{
+    position: absolute;
+    opacity: 0;
+}
+
+.phone:hover .overlay1{
+    opacity: 1;
+}
+/* Add any other CSS styles you have */
+
+.hidden{
+    display: none;
+}
